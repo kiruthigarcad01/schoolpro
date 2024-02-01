@@ -6,3 +6,13 @@
   width: 600px;
   height: 300px;
 }
+
+.swiper .swiper-button-next, .swiper .swiper-button-prev{
+  color: lavenderblush;
+  
+  }
+  
+  .swiper .swiper-pagination-bullet-active{
+    color: bisque;
+  }
+    
