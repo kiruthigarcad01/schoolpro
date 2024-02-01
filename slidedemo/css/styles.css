@@ -12,7 +12,16 @@
   
   }
   
-  .swiper .swiper-pagination-bullet-active{
+.swiper-pagination .swiper-pagination-bullet{
+  opacity: 1;
+  background-color: #df6060;
+
+}
+
+  .swiper-pagination .swiper-pagination-bullet-active{
     background-color: aliceblue;
+    width: 3rem;
+    height: 1rem;
+    border-radius: .7rem;
   }
     

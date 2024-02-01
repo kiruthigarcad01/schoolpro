@@ -15,7 +15,7 @@
 <body>
 <h1>Home page</h1>
 <div class="imagecontainer">
-    <div class="swiper">
+    <div id="swiper" class="swiper">
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
           <!-- Slides -->
@@ -44,6 +44,8 @@
     // Optional parameters
     direction: 'horizontal',
     loop: true,
+    autoplay:{delay:2000,},
+    slidesPerView:2,
   
     // If we need pagination
     pagination: {
@@ -61,7 +63,13 @@
       el: '.swiper-scrollbar',
     },
   });
-  
+  swiper.autoplay.stop();
+      const swiperContainer = document.getElementById("swiper");
+      swiperContainer.addEventListener("mouseover", (e) => {
+        swiper.autoplay.start();
+      });
+      swiperContainer.addEventListener("mouseout", () => {
+        swiper.autoplay.stop();
   </script>
 </body>
 </html>
