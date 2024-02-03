@@ -1,15 +1,68 @@
-img{
-  width: 0px;
-  height: 50px;
+body{
+  background-image: linear-gradient(to right, #7e787e, #977e96, #b283ae, #ce87c6, #eb89dc);
 }
+
+img{
+  
+  padding: 20px;
+
+} 
 
 .header{
-  display: flex;
-  place-items: center;
-  justify-content: center;
-  gap: 50px;
-  background-color: #555;
+  display: block;
+  overflow: hidden;
+  color: white;
+  text-align: center;
+}
 
+.searchblock{
+  background-color: gainsboro;
+}
+
+
+.searchbar{
+  width: 600px;
+}
+.titleblock{
+  display: flex;
+  justify-content: space-between;  
+  color: white;
+}
+
+.logo{
+  color: white;
+  background-image: linear-gradient(violet, blue);
+  padding: 20px 80px;
+  
+  
+}
+
+.slogan{
+  text-align: center;
+
+}
+ul{
+  display: flex;
+  list-style-type: none;
+  gap: 20px 30px;
+  padding: 20px;
+  
+}
+
+.menu1{
+  color: blue;
+}
+
+
+li{
+  float: left;
+  
+}
+
+li a{
+  padding:20px 20px ;
+  text-decoration: none;
+  color: white;
 }
 
 
@@ -17,8 +70,7 @@ img{
 
 
 
-
-.imagecontainer{
+/* .imagecontainer{
     width: 100%;
 }
 
@@ -74,5 +126,5 @@ img{
   .navbar a {
     float: none;
     display: block;
-  }
+  } */
 }
