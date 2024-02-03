@@ -2,11 +2,13 @@ body{
   background-image: linear-gradient(to right, #7e787e, #977e96, #b283ae, #ce87c6, #eb89dc);
 }
 
-img{
-  
-  padding: 20px;
+.bimg{
 
-} 
+  background-image: url("../images/girl1.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+
+}
 
 .header{
   display: block;
