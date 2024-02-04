@@ -81,22 +81,22 @@ li a{
   color: white;
 }
 
-.Registration-form{
+/* .Registration-form{
   position: absolute;
   top: 50%;
   left: 70%;
   width: 350px;
   /* justify-content: space-between; */
-}
+/* }
 
 .Registration-form h1{
 
   font-size: 30px;
   text-align: center;
   text-transform: uppercase;
-  margin: 40px 0;
+  /* margin: 40px 0; */
 
-}
+/* }
 .Registration-form p{
   font-size: 20px;
   margin: 15px 0;
@@ -108,11 +108,11 @@ li a{
   width: 70%;
   border: 0;
   border-radius: 5px;
-  outline: none;
+  outline: none; */ 
 
-}
+/* } */
 
-.Registration-form button{
+/* .Registration-form button{
   font-size: 18px;
   font-weight: bold;
   margin: 20px 0;
@@ -125,7 +125,7 @@ li a{
 
 .Registration-form button:hover{
   color: aliceblue;
-}
+} */
 
 
 /* .imagecontainer{
