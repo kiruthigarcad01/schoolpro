@@ -66,20 +66,24 @@ body{
     font-size: 20px;
 }  
 .wrapper .remember-forgot{
-    display: flex;
+    display: block;
     justify-content: space-between;
     font-size: 14.5px;
     margin: -15px 0 15px;
 }
 
 .remember-forgot label input{
+    display: inline-block;
     accent-color: white;
     margin-right: 3px;
+    justify-content: space-between;
 }
 
 .remember-forgot a{
+    display: inline-block;
     color: white;
     text-decoration: none;
+    justify-content: space-between;
 }
 .remember-forgot a:hover{
     text-decoration: underline;
