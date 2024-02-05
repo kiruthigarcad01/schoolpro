@@ -1,16 +1,55 @@
 body{
+
   background-image: linear-gradient(to right, #7e787e, #977e96, #b283ae, #ce87c6, #eb89dc);
 }
+
+
+.homepage{
+
+  background-image: linear-gradient(to right, #ece5ec, #faf6fa, #f1e8f1, #f3eff3, #f3edf2);
+}
+
+.mainpage{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: powderblue;
+  height: 200px;
+  width: 100%;
+  padding: 20px 20px;
+  cursor: pointer;
+}
+
 
 .bimg{
 
   background-image: url("../images/girl1.png");
   height: 100vh;
   background-repeat: no-repeat;
+  
 
 }
 
-.bee{
+
+
+img{
+  width: 200px;
+  height: 200px;
+}
+/* .mainpage{
+  display: inline-block;
+  height: 200px;
+  width: 100%;
+  background-color: powderblue;
+  justify-items:left;
+  padding: 20px 20px 20px 20px;
+} */
+
+
+
+
+
+/* .bee{ */
 
 /* text-align: left;
 justify-items: left;
@@ -21,7 +60,7 @@ display: block; */
 /* padding-top: 40px; */
 
 
-}
+/* } */
 
 .header{
   display: block;
@@ -31,7 +70,12 @@ display: block; */
 }
 
 .searchblock{
-  background-color: gainsboro;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 
@@ -185,3 +229,10 @@ li a{
     float: none;
     display: block;
   } */
+
+  @media screen and (max-width: 500px){
+    .titleblock a{
+      font-size: 100px;
+    }
+
+  }

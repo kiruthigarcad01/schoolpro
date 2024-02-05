@@ -13,9 +13,11 @@ body{
     background: url(../images/school.webp) no-repeat;
     background-size: cover;
     background-position: center;
+    
+}
 
-    
-    
+.bimg{
+    background-image: url(../images/girl1.png);
 }
 
 .wrapper{
@@ -66,7 +68,7 @@ body{
     font-size: 20px;
 }  
 .wrapper .remember-forgot{
-    display: block;
+    display: flex;
     justify-content: space-between;
     font-size: 14.5px;
     margin: -15px 0 15px;
