@@ -38,14 +38,14 @@
     <!-- <div class="swiper-scrollbar"></div>
   </div> -->
 
-  <!-- <div class="bottomdesign">
+  <div class="bottomdesign">
     <input type="submit" class="clickme" id="clickme" name="clickme">
-  </div> -->
+  </div>
 
-  Enter your name: <input type="text" id="fname" onblur="myFunction()">
+  <!-- Enter your name: <input type="text" id="fname" onblur="myFunction()">
 
   <p>When you leave the input field, a function is triggered which transforms the input text to upper case.</p>
-  
+   -->
 
 
   <!-- <h2>Finding HTML Elements by query selector</h2>
@@ -55,54 +55,54 @@
 
   <p id="demo"</p> -->
 
+<!-- 
 
-
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
 <script>
-  const swiper = new Swiper('.swiper', {
-    // Optional parameters
-    direction: 'horizontal',
-    loop: true,
-    autoplay:{delay:2000,},
-    slidesPerView:1,
-    spaceBetween:10,
+  // const swiper = new Swiper('.swiper', {
+  //   // Optional parameters
+  //   direction: 'horizontal',
+  //   loop: true,
+  //   autoplay:{delay:2000,},
+  //   slidesPerView:1,
+  //   spaceBetween:10,
     
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-    },
+  //   // If we need pagination
+  //   pagination: {
+  //     el: '.swiper-pagination',
+  //   },
   
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
+  //   // Navigation arrows
+  //   navigation: {
+  //     nextEl: '.swiper-button-next',
+  //     prevEl: '.swiper-button-prev',
+  //   },
   
-    // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
-    },
-  });
+  //   // And if we need scrollbar
+  //   scrollbar: {
+  //     el: '.swiper-scrollbar',
+  //   },
+  // });
 
 
 
-// const clickid="clickme" 
-// const clickmebtn=document.querySelector(`#${clickid}`);
-// clickmebtn.addEventListener('onmousedown', clickfun);
-
-// function clickfun(){
-
-//   console.log("click is working under listener");
-// }
-
-const clickid="fname" 
+const clickid="clickme" 
 const clickmebtn=document.querySelector(`#${clickid}`);
-clickmebtn.addEventListener('onblur', blur);
+clickmebtn.addEventListener('mouseover', clickfun);
 
-function onblur(){
+function clickfun(){
 
   console.log("click is working under listener");
 }
+
+// const clickid="fname" 
+// const clickmebtn=document.querySelector(`#${clickid}`);
+// clickmebtn.addEventListener('onblur', blur);
+
+// function onblur(){
+
+//   console.log("click is working under listener");
+// }
 
   
 
