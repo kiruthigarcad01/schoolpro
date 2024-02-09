@@ -9,14 +9,23 @@ body{
   background-image: linear-gradient(to right, #cfc3f0, #c8c8f3, #c3cdf6, #bed2f6, #bbd6f6, #bdd6f7, #bed6f7, #c0d6f8, #c8d1f9, #d3ccf7, #e0c6f2, #ecc0e9);
 }
 
+.abtpage{
+  background-image: linear-gradient(to right, #f9edf4, #f4ebf7, #ecebfa, #e3ebfb, #d8ebfa, #d2ebf9, #cbeaf7, #c5eaf4, #c1e9f4, #bce9f3, #b8e8f3, #b3e8f2);
+  
+} 
+
 .nav{
 display: block;
 float: left;
 gap: 30px;
-
-
-
 }
+
+
+
+
+
+
+
 .homepage .btn{
 display: block;
 float: right;
@@ -48,6 +57,13 @@ img{
   height: 100px;
 }
 
+.para{
+  font-family:  Helvetica;
+  font-size: medium;
+  padding: 20px 20px;
+  gap: 20px;
+  
+}
 
 
 .header{

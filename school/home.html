@@ -18,25 +18,44 @@
 />
 
 <!-- Slider main container -->
-<div class="swiper">
+<!-- <div class="swiper"> -->
     <!-- Additional required wrapper -->
-    <div class="swiper-wrapper">
+    <!-- <div class="swiper-wrapper"> -->
       <!-- Slides -->
-      <div class="swiper-slide"><img src="images/eschool1.jpg" alt="#"></div>
+      <!-- <div class="swiper-slide"><img src="images/eschool1.jpg" alt="#"></div>
       <div class="swiper-slide"><img src="images/eschool2.jpg" alt="#"></div>
-      <div class="swiper-slide"><img src="images/eschool3.jpeg" alt="#"></div>
+      <div class="swiper-slide"><img src="images/eschool3.jpeg" alt="#"></div> -->
       ...
     </div>
     <!-- If we need pagination -->
-    <div class="swiper-pagination"></div>
+    <!-- <div class="swiper-pagination"></div> -->
   
     <!-- If we need navigation buttons -->
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
+    <!-- <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div> -->
   
     <!-- If we need scrollbar -->
-    <div class="swiper-scrollbar"></div>
-  </div>
+    <!-- <div class="swiper-scrollbar"></div>
+  </div> -->
+
+  <!-- <div class="bottomdesign">
+    <input type="submit" class="clickme" id="clickme" name="clickme">
+  </div> -->
+
+  Enter your name: <input type="text" id="fname" onblur="myFunction()">
+
+  <p>When you leave the input field, a function is triggered which transforms the input text to upper case.</p>
+  
+
+
+  <!-- <h2>Finding HTML Elements by query selector</h2>
+  <p class="intro">Hello world</p>
+  <p class="intro">Hello Sweden</p>
+  <p class="intro">Hello Japan</p>
+
+  <p id="demo"</p> -->
+
+
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
@@ -64,8 +83,30 @@
       el: '.swiper-scrollbar',
     },
   });
+
+
+
+// const clickid="clickme" 
+// const clickmebtn=document.querySelector(`#${clickid}`);
+// clickmebtn.addEventListener('onmousedown', clickfun);
+
+// function clickfun(){
+
+//   console.log("click is working under listener");
+// }
+
+const clickid="fname" 
+const clickmebtn=document.querySelector(`#${clickid}`);
+clickmebtn.addEventListener('onblur', blur);
+
+function onblur(){
+
+  console.log("click is working under listener");
+}
+
+  
+
 </script>
 
-    </div>
 </body>
 </html>
